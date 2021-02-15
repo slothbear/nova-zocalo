@@ -79,8 +79,8 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-production:
-  <<: *default
-  database: nova_zocalo_production
-  username: nova_zocalo
-  password: <%= ENV['NOVA_ZOCALO_DATABASE_PASSWORD'] %>
+# production:
+#   <<: *default
+#   database: nova_zocalo_production
+#   username: nova_zocalo
+#   password: <%= ENV['NOVA_ZOCALO_DATABASE_PASSWORD'] %>
